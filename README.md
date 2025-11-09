@@ -27,6 +27,3 @@ Cílem je vytvořit přehlednou a jednoduchou kuchařku dostupnou přes webové 
 - **OneDrive** – sdílení souborů pro školní účely  
 
 ---
-
-## ⚙️ Struktura projektu
-
