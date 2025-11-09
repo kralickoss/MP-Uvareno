@@ -9,11 +9,7 @@ Cílem je vytvořit přehlednou a jednoduchou kuchařku dostupnou přes webové 
 
 ### 🟩 **Backend**
 - **Node.js** – JavaScript runtime pro serverovou logiku  
-- **Express.js** – lehký framework pro tvorbu REST API  
 - **MySQL** – relační databáze pro ukládání receptů, kategorií a komentářů  
-- **npm** – správce balíčků pro instalaci knihoven  
-- **dotenv** – správa přihlašovacích údajů (např. DB hesla)  
-- **cors** – povolení komunikace mezi frontendem a backendem  
 
 ---
 
@@ -21,7 +17,6 @@ Cílem je vytvořit přehlednou a jednoduchou kuchařku dostupnou přes webové 
 - **HTML5** – struktura webové stránky  
 - **CSS3** – stylování a responzivní design  
 - **JavaScript (Fetch API)** – komunikace s backendem přes REST API  
-- **UI prvky z [uiverse.io](https://uiverse.io/)** – moderní tlačítka a formuláře
 
 ---
 
