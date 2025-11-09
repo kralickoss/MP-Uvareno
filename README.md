@@ -8,7 +8,8 @@ Cílem je vytvořit přehlednou a jednoduchou kuchařku dostupnou přes webové 
 ## 🧩 Použité technologie
 
 ### 🟩 **Backend**
-- **Node.js** – JavaScript runtime pro serverovou logiku  
+- **Node.js** – JavaScript runtime pro serverovou logiku
+- **React.js** - Knihovna pro tvorbu uživatelského rozhraní
 - **MySQL** – relační databáze pro ukládání receptů, kategorií a komentářů  
 
 ---
