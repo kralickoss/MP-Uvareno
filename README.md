@@ -14,9 +14,9 @@ Cílem je vytvořit přehlednou a jednoduchou kuchařku dostupnou přes webové 
 ---
 
 ### 🟦 **Frontend**
-- **HTML5** – struktura webové stránky  
-- **CSS3** – stylování a responzivní design  
-- **JavaScript (Fetch API)** – komunikace s backendem přes REST API  
+- **HTML** – struktura webové stránky  
+- **CSS** – stylování a responzivní design  
+- **JavaScript** – komunikace s backendem přes REST API  
 
 ---
 
