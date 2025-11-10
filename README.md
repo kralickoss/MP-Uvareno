@@ -27,3 +27,6 @@ Cílem je vytvořit přehlednou a jednoduchou kuchařku dostupnou přes webové 
 - **OneDrive** – sdílení souborů pro školní účely  
 
 ---
+
+### 🟥 **Prvotní Dedign**
+https://www.figma.com/design/QwAxk79TpZkMLF9f3DZxzU/Untitled?node-id=0-1&t=GwPwXdg7C6HLdo7k-1
