@@ -32,13 +32,13 @@ Cílem je vytvořit přehlednou a jednoduchou kuchařku dostupnou přes webové 
 https://www.figma.com/design/QwAxk79TpZkMLF9f3DZxzU/Untitled?node-id=0-1&t=GwPwXdg7C6HLdo7k-1
 
 - Index
-<img width="549" height="616" alt="image" src="https://github.com/user-attachments/assets/59678f16-9a92-4dcd-bdd1-4610621cf961" />
+<img width="690" height="782" alt="image" src="https://github.com/user-attachments/assets/d4511b31-fda2-4fbc-a4e8-23c511f86960" />
 
 - Recepty
-<img width="549" height="464" alt="image" src="https://github.com/user-attachments/assets/88e78341-6cc6-40da-8141-e1818c0b33a2" />
+<img width="881" height="749" alt="image" src="https://github.com/user-attachments/assets/27b3c864-e1bb-4235-a1b2-4212605e3a7b" />
 
 - Zobrazení Receptu
-<img width="550" height="615" alt="image" src="https://github.com/user-attachments/assets/2e0f591e-e7ad-4051-b39f-1d21208922b9" />
+<img width="691" height="776" alt="image" src="https://github.com/user-attachments/assets/e9d94b32-09b0-40ad-a0b8-567c541da370" />
 
 - Přidání Receptu
 <img width="690" height="776" alt="image" src="https://github.com/user-attachments/assets/fb7074a1-86dc-4d4c-8c47-17c17d0f0133" />
