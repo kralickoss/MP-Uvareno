@@ -47,4 +47,4 @@ https://www.figma.com/design/QwAxk79TpZkMLF9f3DZxzU/Untitled?node-id=0-1&t=GwPwX
 <img width="551" height="308" alt="image" src="https://github.com/user-attachments/assets/2b08c54d-4775-4777-9c93-593f7f4853cf" />
 
 - Register
-<img width="551" height="311" alt="image" src="https://github.com/user-attachments/assets/3a08438c-bb21-409f-a6df-05136f36d2e3" />
+<img width="885" height="496" alt="image" src="https://github.com/user-attachments/assets/93291081-8ae2-48bd-af6c-93d5d8e11394" />
