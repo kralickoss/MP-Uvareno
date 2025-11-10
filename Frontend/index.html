@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uvařeno</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <ul>
+        <li><a href="#">Domů</a></li>
+        <li><a href="#">Recepty</a></li>
+        <li><a href="#">Přidat Recept</a></li>
+        <li><a href="#">Přihlášení</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero sekce -->
+  <section class="hero">
+    <h1>Uvařeno</h1>
+    <p>Vaše kuchařka plná skvělých receptů</p>
+
+    <div class="buttons">
+      <button onclick="filterCategory('polévky')">Polévky</button>
+      <button onclick="filterCategory('hlavni')">Hlavní chod</button>
+      <button onclick="filterCategory('dezerty')">Dezerty</button>
+      <button onclick="filterCategory('všechny')">Všechny</button>
+    </div>
+  </section>
+
+  <!-- Recepty -->
+  <section class="recipes">
+    <h2>Sto lidí, sto chutí, proto máme recept pro každého z Vás!</h2>
+    <div class="recipe-container" id="recipe-container">
+      <!-- Recepty se načtou dynamicky z backendu -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Uvařeno</p>
+  </footer>
+</body>
+</html>
