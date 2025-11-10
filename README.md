@@ -1,6 +1,6 @@
 # 🍳 Uvařeno – Webová aplikace pro správu receptů
 
-Projekt **Uvařeno** je webová aplikace, která umožňuje uživatelům přidávat, vyhledávat, hodnotit a komentovat recepty.  
+Projekt **Uvařeno** je webová aplikace, která umožňuje uživatelům přidávat, vyhledávat a hodnotit recepty.  
 Cílem je vytvořit přehlednou a jednoduchou kuchařku dostupnou přes webové rozhraní.
 
 ---
