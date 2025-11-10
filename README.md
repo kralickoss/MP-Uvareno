@@ -8,27 +8,30 @@ Cílem je vytvořit přehlednou a jednoduchou kuchařku dostupnou přes webové 
 ## 🧩 Použité technologie
 
 ### 🟩 **Backend**
-- **Node.js** – JavaScript runtime pro serverovou logiku
-- **React.js** - Knihovna pro tvorbu uživatelského rozhraní
-- **MySQL** – relační databáze pro ukládání receptů, kategorií a komentářů  
+- **PHP** – serverový jazyk pro zpracování formulářů, komunikaci s databází a generování obsahu
+- **MySQL** – relační databáze pro ukládání receptů, kategorií a uživatelů
 
 ---
 
 ### 🟦 **Frontend**
 - **HTML** – struktura webové stránky  
 - **CSS** – stylování a responzivní design  
-- **JavaScript** – komunikace s backendem přes REST API  
+- **JavaScript** – menší interakce a validace formulářů na straně klienta
+- **Tailwind**
+- **GSAP**
+- **Bootstrap**
 
 ---
 
 ### 🟨 **Další nástroje**
 - **Git & GitHub** – verzování a správa kódu  
 - **Visual Studio Code** – vývojové prostředí  
-- **OneDrive** – sdílení souborů pro školní účely  
+- **OneDrive** – sdílení souborů pro školní účely
+- **Figma** – návrh uživatelského rozhraní 
 
 ---
 
-### 🟥 **Prvotní Dedign**
+### 🟥 **Prvotní Design**
 https://www.figma.com/design/QwAxk79TpZkMLF9f3DZxzU/Untitled?node-id=0-1&t=GwPwXdg7C6HLdo7k-1
 
 - Index
