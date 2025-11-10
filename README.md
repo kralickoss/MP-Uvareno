@@ -31,4 +31,4 @@ Cílem je vytvořit přehlednou a jednoduchou kuchařku dostupnou přes webové 
 ### 🟥 **Prvotní Dedign**
 https://www.figma.com/design/QwAxk79TpZkMLF9f3DZxzU/Untitled?node-id=0-1&t=GwPwXdg7C6HLdo7k-1
 
-<img width="549" height="616" alt="image" src="https://github.com/user-attachments/assets/59678f16-9a92-4dcd-bdd1-4610621cf961" />
+- <img width="549" height="616" alt="image" src="https://github.com/user-attachments/assets/59678f16-9a92-4dcd-bdd1-4610621cf961" />
