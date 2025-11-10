@@ -8,15 +8,15 @@ Cílem je vytvořit přehlednou a jednoduchou kuchařku dostupnou přes webové 
 ## 🧩 Použité technologie
 
 ### 🟩 **Backend**
-- **PHP** – serverový jazyk pro zpracování formulářů, komunikaci s databází a generování obsahu
-- **MySQL** – relační databáze pro ukládání receptů, kategorií a uživatelů
+- **MySQL**
+- **Python**
 
 ---
 
 ### 🟦 **Frontend**
-- **HTML** – struktura webové stránky  
-- **CSS** – stylování a responzivní design  
-- **JavaScript** – menší interakce a validace formulářů na straně klienta
+- **HTML**
+- **CSS**
+- **JavaScript**
 - **Tailwind**
 - **GSAP**
 - **Bootstrap**
