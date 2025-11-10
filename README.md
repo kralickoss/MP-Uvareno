@@ -31,4 +31,15 @@ Cílem je vytvořit přehlednou a jednoduchou kuchařku dostupnou přes webové 
 ### 🟥 **Prvotní Dedign**
 https://www.figma.com/design/QwAxk79TpZkMLF9f3DZxzU/Untitled?node-id=0-1&t=GwPwXdg7C6HLdo7k-1
 
-- <img width="549" height="616" alt="image" src="https://github.com/user-attachments/assets/59678f16-9a92-4dcd-bdd1-4610621cf961" />
+- Index
+<img width="549" height="616" alt="image" src="https://github.com/user-attachments/assets/59678f16-9a92-4dcd-bdd1-4610621cf961" />
+- Recepty
+<img width="549" height="464" alt="image" src="https://github.com/user-attachments/assets/88e78341-6cc6-40da-8141-e1818c0b33a2" />
+- Zobrazení Receptu
+<img width="550" height="615" alt="image" src="https://github.com/user-attachments/assets/2e0f591e-e7ad-4051-b39f-1d21208922b9" />
+- Přidání Receptu
+<img width="550" height="616" alt="image" src="https://github.com/user-attachments/assets/fe41daa2-37c4-42a3-ab08-899a033b3ccd" />
+- Login
+<img width="551" height="308" alt="image" src="https://github.com/user-attachments/assets/2b08c54d-4775-4777-9c93-593f7f4853cf" />
+- Register
+<img width="551" height="311" alt="image" src="https://github.com/user-attachments/assets/3a08438c-bb21-409f-a6df-05136f36d2e3" />
