@@ -41,11 +41,10 @@ https://www.figma.com/design/QwAxk79TpZkMLF9f3DZxzU/Untitled?node-id=0-1&t=GwPwX
 <img width="550" height="615" alt="image" src="https://github.com/user-attachments/assets/2e0f591e-e7ad-4051-b39f-1d21208922b9" />
 
 - Přidání Receptu
-<img width="550" height="616" alt="image" src="https://github.com/user-attachments/assets/fe41daa2-37c4-42a3-ab08-899a033b3ccd" />
+<img width="690" height="776" alt="image" src="https://github.com/user-attachments/assets/fb7074a1-86dc-4d4c-8c47-17c17d0f0133" />
 
 - Login
 <img width="884" height="499" alt="image" src="https://github.com/user-attachments/assets/725e31ae-d24b-48ef-b0f7-52bdd802cf7c" />
-
 
 - Register
 <img width="885" height="496" alt="image" src="https://github.com/user-attachments/assets/93291081-8ae2-48bd-af6c-93d5d8e11394" />
