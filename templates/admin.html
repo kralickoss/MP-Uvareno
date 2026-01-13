@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel - Uvařeno</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root { --bg: #1A1A1D; --accent: #A7C4C2; }
+        body { background-color: var(--bg); color: white; font-family: sans-serif; }
+    </style>
+</head>
+<body class="p-8">
+    <div class="max-w-6xl mx-auto">
+        <div class="flex justify-between items-center mb-10">
+            <h1 class="text-4xl font-bold text-accent">Admin Panel</h1>
+            <a href="index.html" class="text-white hover:text-accent underline">Zpět na web</a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            
+            <div class="bg-[#121212] p-6 rounded-xl border border-white/10">
+                <h2 class="text-2xl font-bold mb-4 text-accent">Uživatelé</h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left text-sm">
+                        <thead class="bg-white/5 uppercase text-white/50">
+                            <tr><th class="p-3">ID</th><th class="p-3">Jméno</th><th class="p-3">Role</th><th class="p-3 text-right">Akce</th></tr>
+                        </thead>
+                        <tbody id="users-table" class="divide-y divide-white/10"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="bg-[#121212] p-6 rounded-xl border border-white/10">
+                <h2 class="text-2xl font-bold mb-4 text-accent">Recepty</h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left text-sm">
+                        <thead class="bg-white/5 uppercase text-white/50">
+                            <tr><th class="p-3">ID</th><th class="p-3">Název</th><th class="p-3">Autor</th><th class="p-3 text-right">Akce</th></tr>
+                        </thead>
+                        <tbody id="recipes-table" class="divide-y divide-white/10"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        async function loadData() {
+            const res = await fetch('/api/admin/data');
+            if (res.status === 403) { window.location.href = "index.html"; return; }
+            const data = await res.json();
+
+            // Render Users
+            document.getElementById('users-table').innerHTML = data.users.map(u => `
+                <tr>
+                    <td class="p-3 text-white/50">${u.id}</td>
+                    <td class="p-3 font-bold">${u.jmeno}</td>
+                    <td class="p-3">
+                        <span class="px-2 py-1 rounded text-xs ${u.role === 'admin' ? 'bg-accent text-black font-bold' : 'bg-white/10'}">${u.role}</span>
+                    </td>
+                    <td class="p-3 text-right">
+                        ${u.role !== 'admin' ? `<button onclick="del('user', ${u.id})" class="text-red-500 hover:text-red-400 font-bold hover:underline">Smazat</button>` : ''}
+                    </td>
+                </tr>
+            `).join('');
+
+            // Render Recipes (s Autorem)
+            document.getElementById('recipes-table').innerHTML = data.recipes.map(r => `
+                <tr>
+                    <td class="p-3 text-white/50">${r.id}</td>
+                    <td class="p-3 font-bold truncate max-w-[150px]" title="${r.nazev}">${r.nazev}</td>
+                    <td class="p-3 text-accent">${r.autor || 'Neznámý'}</td>
+                    <td class="p-3 text-right">
+                        <button onclick="del('recipe', ${r.id})" class="text-red-500 hover:text-red-400 font-bold hover:underline">Smazat</button>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        async function del(type, id) {
+            if(!confirm("Opravdu smazat? Tato akce je nevratná.")) return;
+            await fetch(`/api/admin/delete/${type}/${id}`, { method: 'DELETE' });
+            loadData();
+        }
+        
+        loadData();
+    </script>
+</body>
+</html>
